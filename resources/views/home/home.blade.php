@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="topbar-one__left">
                     <a href="#">humas@uinsu.ac.id</a>
-                    <a href="#">061 - 9001 - 0001</a>
+                    <a href="#">62-61-6615683</a>
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
                     <a href="#">Login</a>
@@ -49,7 +49,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
                         <a class="navbar-brand" href="index.html">
-                            <img src="{{ asset('ladun/home_asset/img/logo_utama.png') }}" class="main-logo" width="228" alt="Awesome Image" />
+                            <img src="{{ asset('ladun/home_asset/img/logo_utama.png') }}" class="main-logo" width="208" alt="Awesome Image" />
                         </a>
                        
                         <button class="menu-toggler" data-target=".main-navigation">
@@ -133,19 +133,19 @@
         </header><!-- /.site-header -->
         <div class="banner-wrapper">
         <section class="banner-two banner-carousel__one no-dots owl-theme owl-carousel">
-                <div class="banner-two__slide banner-two__slide-one" style="background-image: url({{ asset('ladun/home_asset/img/slide_home/1.png') }});">
+                <div class="banner-two__slide banner-two__slide-one" style="background-image: url(ladun/home_asset/img/slide_home/1.png);">
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col-xl-12">
                                 <p class="banner-two__tag-line">High quality courses</p><!-- /.banner-two__tag-line -->
-                                <h3 class="banner-two__title banner-two__light-color">Read & learn <br>
+                                <h3 class="banner-two__title banner-two__light-color" style="color: #dfe6e9;">Read & learn <br>
                                     in an easy way</h3><!-- /.banner-two__title -->
                                 <a href="#" class="thm-btn banner-two__btn">Learn More</a>
                             </div><!-- /.col-xl-12 -->
                         </div><!-- /.row -->
                     </div><!-- /.container -->
                 </div><!-- /.banner-two__slide -->
-                <div class="banner-two__slide banner-two__slide-two" style="background-image: url(assets/images/slider-2-2.jpg);">
+                <div class="banner-two__slide banner-two__slide-two" style="background-image: url(ladun/home_asset/img/slide_home/3.png);">
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col-xl-12">
