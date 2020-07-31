@@ -75,7 +75,7 @@
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="#">Pages</a>
+                                <a href="#">About Uinsu</a>
                                 <ul class="sub-menu">
                                     <li><a href="about.html">About Page</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
@@ -84,14 +84,14 @@
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="courses.html">Courses</a>
+                                <a href="courses.html">Admission</a>
                                 <ul class="sub-menu">
                                     <li><a href="courses.html">Courses</a></li>
                                     <li><a href="course-details.html">Course Details</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="teachers.html">Teachers</a>
+                                <a href="teachers.html">Academic</a>
                                 <ul class="sub-menu">
                                     <li><a href="teachers.html">Teachers</a></li>
                                     <li><a href="team-details.html">Teachers Details</a></li>
@@ -181,12 +181,11 @@
                     <div class="col-xl-6">
                         <div class="about-two__content">
                             <div class="block-title text-left">
-                                <h2 class="block-title__title">Welcome to online <br>
-                                    learning center</h2><!-- /.block-title__title -->
+                                <h2 class="block-title__title">Welcome to  <br>
+                                UIN SU Medan</h2><!-- /.block-title__title -->
                             </div><!-- /.block-title -->
-                            <p class="about-two__text">There are many variations of passages of lorem ipsum available but the
-                                majority have suffered alteration in some form by injected humour or randomised words which
-                                don't look.</p><!-- /.about-two__text -->
+                            <p class="about-two__text">Universitas yang mengintegrasikan nilai Islam dan ilmu pengetahuan. Memadukan IPTEK 
+                                dan IMTAK untuk mempersiapkan lulusan tangguh menghadapi jaman</p><!-- /.about-two__text -->
                             <div class="about-two__single-wrap">
                                 <div class="about-two__single">
                                     <div class="about-two__single-icon">
@@ -213,7 +212,7 @@
                     <div class="col-xl-6 d-flex justify-content-xl-end justify-content-sm-center">
                         <div class="about-two__image">
                             <span class="about-two__image-dots"></span><!-- /.about-two__image-dots -->
-                            <img src="assets/images/about-1-1.jpg" alt="">
+                            <img src="{{ asset('ladun/home_asset/img/about-1-.png') }}" alt="">
                             <div class="about-two__count">
                                 <div class="about-two__count-text">Trusted by
                                     <span class="counter">4890</span></div><!-- /.about-two__count-text -->
