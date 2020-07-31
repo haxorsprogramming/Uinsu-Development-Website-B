@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Uinsu (Universitas Islam Negeri Sumatera Utara)</title>
+    <title>Universitas Islam Negeri Sumatera Utara (Uin-SU) </title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
@@ -225,326 +225,86 @@
         <section class="course-one__top-title home-one">
             <div class="container">
                 <div class="block-title mb-0">
-                    <h2 class="block-title__title">Explore our <br>
-                        popular courses</h2><!-- /.block-title__title -->
+                    <h2 class="block-title__title">Uinsu Today</h2><!-- /.block-title__title -->
                 </div><!-- /.block-title -->
             </div><!-- /.container -->
             <div class="course-one__top-title__curve"></div><!-- /.course-one__top-title__curve -->
         </section><!-- /.course-one__top-title -->
 
-        <section class="course-one course-one__teacher-details home-one">
+        <section class="blog-one  blog-one__home-two">
             <div class="container">
-                <div class="course-one__carousel owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="course-one__single color-1">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-1.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">development</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-1.jpg" alt="">
-                                    by <a href="teacher-details.html">Lou Guerrero</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">New react bootcamp</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-2">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-2.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">It & Software</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-2.jpg" alt="">
-                                    by <a href="teacher-details.html">Cora Diaz</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Improve editing skills</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-3">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-3.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">marketing</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-3.jpg" alt="">
-                                    by <a href="teacher-details.html">Ruth Becker</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Marketing strategies</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-4">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-4.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">Photography</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-4.jpg" alt="">
-                                    by <a href="teacher-details.html">Ernest Rodriquez</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Basics of photography</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-5">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-5.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">marketing</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-5.jpg" alt="">
-                                    by <a href="teacher-details.html">Isabella Stanley</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Affiliate bootcamp</a>
-                                </h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-6">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-6.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">Health & Fitness</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-6.jpg" alt="">
-                                    by <a href="teacher-details.html">Katherine Collins</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Healthy workout tips </a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-1">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-1.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">development</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-1.jpg" alt="">
-                                    by <a href="teacher-details.html">Lou Guerrero</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">New react bootcamp</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-2">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-2.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">It & Software</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-2.jpg" alt="">
-                                    by <a href="teacher-details.html">Cora Diaz</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Improve editing skills</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="course-one__single color-3">
-                            <div class="course-one__image">
-                                <img src="assets/images/course-1-3.jpg" alt="">
-                                <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                            </div><!-- /.course-one__image -->
-                            <div class="course-one__content">
-                                <a href="#" class="course-one__category">marketing</a><!-- /.course-one__category -->
-                                <div class="course-one__admin">
-                                    <img src="assets/images/team-1-3.jpg" alt="">
-                                    by <a href="teacher-details.html">Ruth Becker</a>
-                                </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details.html">Marketing strategies</a></h2>
-                                <!-- /.course-one__title -->
-                                <div class="course-one__stars">
-                                    <span class="course-one__stars-wrap">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span><!-- /.course-one__stars-wrap -->
-                                    <span class="course-one__count">4.8</span><!-- /.course-one__count -->
-                                    <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
-                                </div><!-- /.course-one__stars -->
-                                <div class="course-one__meta">
-                                    <a href="course-details.html"><i class="far fa-clock"></i> 10 Hours</a>
-                                    <a href="course-details.html"><i class="far fa-folder-open"></i> 6 Lectures</a>
-                                    <a href="course-details.html">$18</a>
-                                </div><!-- /.course-one__meta -->
-                                <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                            </div><!-- /.course-one__content -->
-                        </div><!-- /.course-one__single -->
-                    </div><!-- /.item -->
-                </div><!-- /.course-one__carousel -->
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__image">
+                                <img src="https://uinsu.ac.id/wp-content/uploads/2020/07/kunker-komisi-E1-1160x773.jpg" alt="">
+                                <a class="blog-one__plus" href="news-details.html"><i class="kipso-icon-plus-symbol"></i>
+                                    <!-- /.kipso-icon-plus-symbol --></a>
+                            </div><!-- /.blog-one__image -->
+                            <div class="blog-one__content text-center">
+                                <div class="blog-one__meta">
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted On Jan 19" href="#"><i class="fa fa-calendar-alt"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="No Comments" href="#"><i class="fa fa-comments"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted By Admin" href="#"><i class="fa fa-user"></i></a>
+                                </div><!-- /.blog-one__meta -->
+                                <h2 class="blog-one__title"><a href="news-details.html">Komisi E DPRD Sumut Kunker ke Kampus IV UIN SU Tuntungan</a>
+                                </h2><!-- /.blog-one__title -->
+                                <p class="blog-one__text">Rektor UIN SU Prof Dr Saidurrahman MAg diabadikan bersama rombongan Komisi E DPRD Sumut, yang dipimpin Dimas Tri Adji</p><!-- /.blog-one__text -->
+                                <a href="news-details.html" class="blog-one__link">Read More</a><!-- /.blog-one__link -->
+                            </div><!-- /.blog-one__content -->
+                        </div><!-- /.blog-one__single -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__image">
+                                <img src="https://uinsu.ac.id/wp-content/uploads/2020/07/kunker-komisi-E1-1160x773.jpg" alt="">
+                                <a class="blog-one__plus" href="news-details.html"><i class="kipso-icon-plus-symbol"></i>
+                                    <!-- /.kipso-icon-plus-symbol --></a>
+                            </div><!-- /.blog-one__image -->
+                            <div class="blog-one__content text-center">
+                                <div class="blog-one__meta">
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted On Jan 19" href="#"><i class="fa fa-calendar-alt"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="No Comments" href="#"><i class="fa fa-comments"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted By Admin" href="#"><i class="fa fa-user"></i></a>
+                                </div><!-- /.blog-one__meta -->
+                                <h2 class="blog-one__title"><a href="news-details.html">Get a tips to develop a quality
+                                        education</a>
+                                </h2><!-- /.blog-one__title -->
+                                <p class="blog-one__text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit
+                                    amet finibus eros.</p><!-- /.blog-one__text -->
+                                <a href="news-details.html" class="blog-one__link">Read More</a><!-- /.blog-one__link -->
+                            </div><!-- /.blog-one__content -->
+                        </div><!-- /.blog-one__single -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__image">
+                                <img src="https://uinsu.ac.id/wp-content/uploads/2020/07/kunker-komisi-E1-1160x773.jpg" alt="">
+                                <a class="blog-one__plus" href="news-details.html"><i class="kipso-icon-plus-symbol"></i>
+                                    <!-- /.kipso-icon-plus-symbol --></a>
+                            </div><!-- /.blog-one__image -->
+                            <div class="blog-one__content text-center">
+                                <div class="blog-one__meta">
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted On Jan 19" href="#"><i class="fa fa-calendar-alt"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="No Comments" href="#"><i class="fa fa-comments"></i></a>
+                                    <a data-toggle="tooltip" data-placement="top" title="Posted By Admin" href="#"><i class="fa fa-user"></i></a>
+                                </div><!-- /.blog-one__meta -->
+                                <h2 class="blog-one__title"><a href="news-details.html">Learn variety of programs and
+                                        courses</a>
+                                </h2><!-- /.blog-one__title -->
+                                <p class="blog-one__text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit
+                                    amet finibus eros.</p><!-- /.blog-one__text -->
+                                <a href="news-details.html" class="blog-one__link">Read More</a><!-- /.blog-one__link -->
+                            </div><!-- /.blog-one__content -->
+                        </div><!-- /.blog-one__single -->
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
             </div><!-- /.container -->
-        </section><!-- /.course-one course-page -->
+        </section><!-- /.blog-one blog-page -->
+
+
         <section class="video-two">
             <div class="container">
                 <img src="assets/images/scratch-1-1.png" class="video-two__scratch" alt="">
