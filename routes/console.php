@@ -17,3 +17,15 @@ use Illuminate\Support\Facades\Artisan;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('uwm_start_go', function(){
+    echo "Uinsu Command Center";
+    echo "\n";
+    echo "====================";
+    echo "\n";
+    echo "Choice command";
+    echo "\n";
+    echo "1.) View data";
+    echo "\n";
+    echo "2.) Clear data"; 
+});

@@ -8,11 +8,12 @@ class C_Home extends Controller
 {
     public function home()
     {
-        return view('home.home');
+        $data = ['judul' => 'Home'];
+        return view('home.home', $data);
     }
 
     public function about()
     {
-        return view('home.home');
+        return view('home.about');
     }
 }
