@@ -40,12 +40,12 @@
                     <div class="footer-widget footer-widget__gallery">
                         <h2 class="footer-widget__title">Gallery</h2><!-- /.footer-widget__title -->
                         <ul class="list-unstyled footer-widget__gallery-list">
-                            <li><a href="#"><img src="assets/images/footer-1-1.png" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/footer-1-2.png" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/footer-1-3.png" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/footer-1-4.png" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/footer-1-5.png" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/footer-1-6.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="http://layerdrops.com/kipso/assets/images/footer-1-1.png" alt=""></a></li>
                         </ul><!-- /.footer-widget__gallery -->
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->

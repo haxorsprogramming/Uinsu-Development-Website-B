@@ -12,6 +12,11 @@ class C_Home extends Controller
         return view('home.home', $data);
     }
 
+    public function academic()
+    {
+        return view('home.academic');
+    }
+
     public function about()
     {
         return view('home.about');

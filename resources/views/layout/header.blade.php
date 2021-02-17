@@ -10,7 +10,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
 
     <!-- plugin scripts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,800%7CSatisfy&display=swap" rel="stylesheet">
@@ -38,7 +37,7 @@
                     <a href="#">62-61-6615683</a>
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
-                    <a href="#">Login</a>
+                    <a href="http://account.uinsu.ac.id">Login</a>
                     <a href="#">Register</a>
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
@@ -48,7 +47,7 @@
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="{{ url('') }}">
                             <img src="{{ asset('ladun/home_asset/img/logo_utama.png') }}" class="main-logo" width="208" alt="Awesome Image" />
                         </a>
                        
@@ -60,19 +59,7 @@
                     <div class="main-navigation">
                         <ul class=" navigation-box">
                             <li class="current">
-                                <a href="index.html">Home</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home 01</a></li>
-                                    <li><a href="index-2.html">Home 02</a></li>
-                                    <li><a href="index-3.html">Home 03</a></li>
-                                    <li><a href="#">Header Versions</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Header 01</a></li>
-                                            <li><a href="index-2.html">Header 02</a></li>
-                                            <li><a href="index-3.html">Header 03</a></li>
-                                        </ul><!-- /.sub-menu -->
-                                    </li>
-                                </ul><!-- /.sub-menu -->
+                                <a href="{{ url('') }}">Home</a>
                             </li>
                             <li>
                                 <a href="#">About Uinsu</a>
@@ -91,12 +78,7 @@
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="teachers.html">Academic</a>
-                                <ul class="sub-menu">
-                                    <li><a href="teachers.html">Teachers</a></li>
-                                    <li><a href="team-details.html">Teachers Details</a></li>
-                                    <li><a href="become-teacher.html">Become Teacher</a></li>
-                                </ul><!-- /.sub-menu -->
+                                <a href="{{ url('/academic') }}">Academic</a>
                             </li>
                             <li>
                                 <a href="news.html">News</a>

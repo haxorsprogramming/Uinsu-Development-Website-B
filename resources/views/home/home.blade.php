@@ -177,7 +177,7 @@
 
 <section class="video-two">
     <div class="container">
-        <img src="assets/images/scratch-1-1.png" class="video-two__scratch" alt="">
+        <img src="http://layerdrops.com/kipso/assets/images/scratch-1-1.png" class="video-two__scratch" alt="">
         <div class="row">
             <div class="col-lg-7">
                 <div class="video-two__content">
@@ -339,7 +339,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 clearfix">
-                <img src="assets/images/cta-1.jpg" class="cta-three__image" alt="">
+                <img src="http://layerdrops.com/kipso/assets/images/cta-1.jpg" class="cta-three__image" alt="">
             </div><!-- /.col-lg-6 -->
             <div class="col-lg-6">
                 <div class="cta-three__content">
@@ -420,7 +420,7 @@
         </div><!-- /.block-title -->
         <div class="blog-two__carousel owl-carousel owl-theme">
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-1.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -437,7 +437,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-2.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -454,7 +454,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-3.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -471,7 +471,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-1.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -488,7 +488,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-2.jpg);">
+                <div class="blog-two__single" style="background-image: urlhttp://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -505,7 +505,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-3.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -522,7 +522,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-1.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -539,7 +539,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-2.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -556,7 +556,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: url(assets/images/blog-2-3.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>
@@ -576,8 +576,8 @@
     </div><!-- /.container -->
 </section><!-- /.blog-one blog-page -->
 <section class="cta-four">
-    <img src="assets/images/circle-stripe-1.png" class="cta-four__stripe" alt="">
-    <img src="assets/images/line-stripe-1.png" class="cta-four__line" alt="">
+    <img src="http://layerdrops.com/kipso/assets/images/circle-stripe-1.png" class="cta-four__stripe" alt="">
+    <img src="http://layerdrops.com/kipso/assets/images/line-stripe-1.png" class="cta-four__line" alt="">
     <div class="container text-center">
         <div class="block-title">
             <h2 class="block-title__title">We’ve best teachers <br>
