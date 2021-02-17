@@ -13,6 +13,8 @@
     <div class="container">
         <div class="row">
 
+
+            @foreach($dataFakultas as $fakultas)
             <div class="col-lg-4">
                 <div class="course-one__single">
                     <div class="course-one__image">
@@ -20,10 +22,10 @@
                         <i class="far fa-heart"></i><!-- /.far fa-heart -->
                     </div><!-- /.course-one__image -->
                     <div class="course-one__content">
-                        <a href="#" class="course-one__category">FITK</a><!-- /.course-one__category -->
-                        <h2 class="course-one__title"><a href="course-details.html">Fakultas Ilmu Tarbiyah & Keguruan</a></h2>
+                        <a href="#" class="course-one__category">{{ $fakultas -> prefix }}</a><!-- /.course-one__category -->
+                        <h2 class="course-one__title"><a href="course-details.html">{{ $fakultas -> nama_fakultas }}</a></h2>
                         <div class="course-one__admin" style="margin-top:20px;">
-                            Mencetak Tenaga Pendidik dan Kependidikan Islam yang profesional
+                            {{ $fakultas -> deksripsi_fakultas }}
                         </div><!-- /.course-one__admin -->
                         
                         <!-- /.course-one__title -->
@@ -45,29 +47,8 @@
                     </div><!-- /.course-one__content -->
                 </div><!-- /.course-one__single -->
             </div><!-- /.col-lg-4 -->
-
-            <div class="col-lg-4">
-                <div class="course-one__single">
-                    <div class="course-one__image">
-                        <img src="https://s3-id-jkt-1.kilatstorage.id/haxors-bucket/cdn/fasih.png" alt="">
-                        <i class="far fa-heart"></i><!-- /.far fa-heart -->
-                    </div><!-- /.course-one__image -->
-                    <div class="course-one__content">
-                        <a href="#" class="course-one__category">FSIH</a><!-- /.course-one__category -->
-                        <div class="course-one__admin">
-                        Mencetak akademisi di bidang hukum dan Islam yang profesional
-                        </div><!-- /.course-one__admin -->
-                        <h2 class="course-one__title"><a href="course-details.html">Fakultas Syariah dan Ilmu Hukum</a></h2>
-                        <!-- /.course-one__title -->
-                       
-                        <div class="course-one__meta">
-                            <a href="course-details.html"><i class="far fa-clock"></i> Study Programs</a>
-                            <a href="course-details.html"><i class="far fa-folder-open"></i> 1022 Student</a>
-                        </div><!-- /.course-one__meta -->
-                        <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
-                    </div><!-- /.course-one__content -->
-                </div><!-- /.course-one__single -->
-            </div><!-- /.col-lg-4 -->
+            @endforeach
+            
             
         </div><!-- /.row -->
         <div class="post-pagination">

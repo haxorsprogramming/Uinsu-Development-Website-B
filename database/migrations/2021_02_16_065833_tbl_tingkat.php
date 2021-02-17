@@ -13,7 +13,13 @@ class TblTingkat extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('tbl_tingkat', function (Blueprint $table) {
+            $table -> id();
+            $table -> char('kd_tingkat', 3);
+            $table -> char('nama_tingkat', 200);
+            $table -> char('deksripsi_tingkat', 200);
+            $table -> char('active', 1);
+        });
     }
 
     /**
@@ -23,6 +29,6 @@ class TblTingkat extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('tbl_tingkat');
     }
 }
