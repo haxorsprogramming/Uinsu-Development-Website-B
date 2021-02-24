@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class TblProgramStudi extends Migration
+class TblUnitKampus extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class TblProgramStudi extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_program_studi', function (Blueprint $table) {
+        Schema::create('tbl_unit_kampus', function (Blueprint $table) {
             $table -> id();
-            $table -> char('kd_prodi', 50);
-            $table -> char('nama_prodi', 200);
-            $table -> char('deksripsi_prodi', 200);
-            $table -> char('prefix', 100);
-            $table -> char('kd_fakultas', 10);
+            $table -> char('kd_unit', 10);
+            $table -> char('nama_unit', 200);
+            $table -> char('deksripsi_unit', 200);
+            $table -> char('prefix', 1);
             $table -> char('active', 1);
         });
     }
@@ -31,6 +30,6 @@ class TblProgramStudi extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tbl_program_studi');
+        Schema::dropIfExists('tbl_unit_kampus');
     }
 }

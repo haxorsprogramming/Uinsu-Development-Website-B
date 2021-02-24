@@ -77,6 +77,25 @@ class DatabaseSeeder extends Seeder
             'tingkat' => 'S1',
             'active' => '1'
         ]);
+        // data tingkat 
+        DB::table('tbl_tingkat') -> insert([
+            'kd_tingkat' => 'S1',
+            'nama_tingkat' => 'S1 (Sarjana)',
+            'deksripsi_tingkat' => '-',
+            'active' => '1'
+        ]);
+        DB::table('tbl_tingkat') -> insert([
+            'kd_tingkat' => 'S2',
+            'nama_tingkat' => 'S2 (Magister)',
+            'deksripsi_tingkat' => '-',
+            'active' => '1'
+        ]);
+        DB::table('tbl_tingkat') -> insert([
+            'kd_tingkat' => 'S3',
+            'nama_tingkat' => 'S3 (Doktoral)',
+            'deksripsi_tingkat' => '-',
+            'active' => '1'
+        ]);
 
     }
 }
