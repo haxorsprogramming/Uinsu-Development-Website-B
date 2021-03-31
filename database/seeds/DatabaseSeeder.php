@@ -96,6 +96,13 @@ class DatabaseSeeder extends Seeder
             'deksripsi_tingkat' => '-',
             'active' => '1'
         ]);
+        // data user 
+        DB::table('tbl_user') -> insert([
+            'username' => 'admin',
+            'tipe' => 'super-admin',
+            'password' => password_hash('admin', PASSWORD_DEFAULT),
+            'active' => '1'
+        ]);
 
     }
 }

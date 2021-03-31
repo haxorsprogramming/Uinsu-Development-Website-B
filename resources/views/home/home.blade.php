@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-xl-12">
-                        <p class="banner-two__tag-line">High quality courses</p><!-- /.banner-two__tag-line -->
+                        <p class="banner-two__tag-line">High Quality University</p><!-- /.banner-two__tag-line -->
                         <h3 class="banner-two__title banner-two__light-color" style="color: #dfe6e9;">Read & learn <br>
                             in an easy way</h3><!-- /.banner-two__title -->
                         <a href="#" class="thm-btn banner-two__btn">Learn More</a>
@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-xl-12">
-                        <p class="banner-two__tag-line">High quality courses</p><!-- /.banner-two__tag-line -->
+                        <p class="banner-two__tag-line">High Quality University</p><!-- /.banner-two__tag-line -->
                         <h3 class="banner-two__title banner-two__light-color">Read & learn <br>
                             in an easy way</h3><!-- /.banner-two__title -->
                         <a href="#" class="thm-btn banner-two__btn">Learn More</a>
@@ -61,8 +61,7 @@
                                 <i class="kipso-icon-professor"></i><!-- /.kipso-icon-professor -->
                             </div><!-- /.about-two__single-icon -->
                             <div class="about-two__single-content">
-                                <p class="about-two__single-text">Start learning from
-                                    our experts</p><!-- /.about-two__single-text -->
+                                <p class="about-two__single-text">Best lecturer</p><!-- /.about-two__single-text -->
                             </div><!-- /.about-two__single-content -->
                         </div><!-- /.about-two__single -->
                         <div class="about-two__single">
@@ -75,7 +74,7 @@
                             </div><!-- /.about-two__single-content -->
                         </div><!-- /.about-two__single -->
                     </div><!-- /.about-two__single-wrap -->
-                    <a href="#" class="thm-btn">Learn More</a><!-- /.thm-btn -->
+                    <a href="#!" class="thm-btn">Explore Now</a><!-- /.thm-btn -->
                 </div><!-- /.about-two__content -->
             </div><!-- /.col-lg-6 -->
             <div class="col-xl-6 d-flex justify-content-xl-end justify-content-sm-center">
@@ -84,7 +83,8 @@
                     <img src="{{ asset('ladun/home_asset/img/about-1-.png') }}" alt="">
                     <div class="about-two__count">
                         <div class="about-two__count-text">Trusted by
-                            <span class="counter">4890</span>
+                            <span class="counter">30000</span>
+                            Students
                         </div><!-- /.about-two__count-text -->
                     </div><!-- /.about-two__count -->
                 </div><!-- /.about-two__image -->
@@ -488,7 +488,7 @@
                 </div><!-- /.blog-two__single -->
             </div><!-- /.item -->
             <div class="item">
-                <div class="blog-two__single" style="background-image: urlhttp://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
+                <div class="blog-two__single" style="background-image: url(http://layerdrops.com/kipso/assets/images/blog-2-1.jpg);">
                     <div class="blog-two__inner">
                         <a href="news-details.html" class="blog-two__date">
                             <span>25</span>

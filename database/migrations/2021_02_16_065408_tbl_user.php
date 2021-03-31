@@ -13,7 +13,14 @@ class TblUser extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('tbl_user', function (Blueprint $table) {
+            $table -> id();
+            $table -> char('username', 50);
+            $table -> char('tipe', 20);
+            $table -> char('password', 100);
+            $table -> timestamp('last_login', 0) -> nullable(); 
+            $table -> char('active', 1);
+        });
     }
 
     /**
@@ -23,6 +30,6 @@ class TblUser extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('tbl_user');
     }
 }
